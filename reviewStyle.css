@@ -1,0 +1,49 @@
+
+h1{
+    text-align: center;
+    font-size: 2.2rem;
+}
+.review .review-slider
+{
+
+border: 1px solid;
+padding: 1rem;
+width: 900px;
+margin-left: 300px;
+
+
+
+}
+.review .review-slider .box
+{
+    border:1px solid red;
+    background: #fff;
+    border-radius: .5rem;
+    text-align: center;
+    padding: 3rem 2rem;
+    outline-offset: -1rem;
+    outline: var(--outline);
+    box-shadow: var(--box-shadow);
+    transition: .2s linear;
+    margin-bottom: 5px;
+   
+}
+.review .review-slider .box:hover
+{
+    box-shadow: 1px 1px 10px 4px var(--green);
+}
+.review .review-slider .box img{
+height: 10rem;
+width: 10rem;
+border-radius: 50%;
+}
+.review .review-slider .box p{
+    padding-bottom: .5rem;
+    color: var(--black);
+    font-size: 1.5rem;
+
+}
+.review .review-slider .box .stars i {
+    color: orange;
+    font-size: 1.2rem;
+}
